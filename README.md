@@ -472,3 +472,282 @@ Vanilla JS Hero Slider Logo
 
 
 ```
+
+<h5>Responsive</h5>
+
+```HTML
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      .lp-slider-container {
+                    width: 100%;
+                    overflow: hidden;
+          
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                  }
+              
+                  .lp-slider-wrapper {
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                  }
+              
+                  .lp-slider-track {
+                    display: flex;
+                    transition: transform 0.5s ease-in-out;
+                  }
+              
+                  .lp-slider-slide {
+                    width: 19%;
+      
+                    margin: 0 10px;
+                    color: #fff;
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                    position: relative;
+                  }
+              
+          
+                  .lp-slider-arrow {
+              
+                    font-size: 35px;
+                    color: rgb(6, 82, 182);
+                
+               
+                    cursor: pointer;
+                    z-index: 10;
+                    user-select: none;
+                  }
+                                          
+                 .lp-slider-slide img {
+                    width: 100%;
+                  }
+      
+                #element-173 a:hover {
+                    border: solid 1px #fff;
+                }
+      
+                .btn-arrows {
+          display: flex;
+          gap: 5px;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .slide-hidden {
+        display: none;
+      }
+      
+       @media only screen and (min-width: 912px) {
+      
+          .lp-slider-slide:first-child,
+          .lp-slider-slide:nth-child(5) {
+            opacity: 0.2;
+          }
+            
+       }
+      
+       @media only screen and (min-width: 540px) and (max-width: 912px)  {
+
+      .lp-slider-slide {
+        width: 50% !important;
+      }
+      .lp-slider-track {
+        justify-content: center !important;
+      }
+
+      }
+
+
+      @media only screen and (max-width: 540px)  {
+
+      .lp-slider-slide {
+        width: 100% !important;
+      }
+      .lp-slider-track {
+        justify-content: center !important;
+      }
+
+      }
+
+      
+                </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+        
+<div class="lp-slider-container">
+  <div class="lp-slider-wrapper">
+    <div class="lp-slider-track" id="lp_slider_track">
+      <div class="lp-slider-slide">
+         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469428-0-pexels-photo-3184416.webp" alt="dummy-1" />
+         
+       </div>
+      <div class="lp-slider-slide">    
+         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+       </div>
+      <div class="lp-slider-slide">
+         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+       </div>
+       <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>   <div class="lp-slider-slide">    
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+      </div>
+     <div class="lp-slider-slide">
+        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
+      </div>
+      <div class="lp-slider-slide">
+
+<img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
+       </div>
+      <div class="lp-slider-slide">
+         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469430-0-Post-Event-2.jpg" alt="dummy-1" />
+       </div>
+    </div>
+
+
+<!-- Fixed arrows -->
+<div class="btn-arrows">
+<div
+class="lp-slider-arrow lp-slider-left-arrow"
+id="lp_slider_left_arrow"
+onclick="lp_slider_slideLeft()"
+>⯇</div>
+
+<div
+class="lp-slider-arrow lp-slider-right-arrow"
+id="lp_slider_right_arrow"
+onclick="lp_slider_slideRight()"
+>⯈</div>
+</div>
+
+  </div>
+</div>
+
+<script>
+  const lp_slider_track = document.getElementById('lp_slider_track');
+ 
+   function lp_slider_slideLeft() {
+     const slides = lp_slider_track.querySelectorAll('.lp-slider-slide');
+     const firstSlide = slides[0];
+     lp_slider_track.appendChild(firstSlide);
+     slideVisibility();
+   }
+ 
+   function lp_slider_slideRight() {
+     const slides = lp_slider_track.querySelectorAll('.lp-slider-slide');
+     const lastSlide = slides[slides.length - 1];
+     lp_slider_track.insertBefore(lastSlide, slides[0]);
+     slideVisibility();
+   }
+ 
+  function slideVisibility() {
+ 
+    const slides =  document.querySelectorAll('.lp-slider-slide');
+    let screenWidth = window.outerWidth;
+ 
+    slides.forEach((slide, index) => {
+       slide.classList.remove('slide-hidden')
+    });
+ 
+    if(screenWidth >= 540 && screenWidth <= 912 ){
+ 
+       // hide slides
+       if(slides.length > 0) {
+         slides[0].classList.add('slide-hidden');
+       }
+       if(slides.length > 1) {
+        slides[slides.length - 1].classList.add('slide-hidden');
+       }
+    } else if(screenWidth < 540 ) {
+ 
+      slides.forEach((slide,index) => {
+        if(index !== 2) {
+           slide.classList.add('slide-hidden');
+        }
+      })
+ 
+    }
+ 
+  }
+ 
+  slideVisibility();
+ 
+  window.addEventListener('resize', slideVisibility);
+ 
+ 
+ </script>
+         
+
+  </body>
+</html>
+
+```
+
