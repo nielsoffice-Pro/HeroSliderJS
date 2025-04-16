@@ -602,74 +602,11 @@ Vanilla JS Hero Slider Logo
 <div class="lp-slider-container">
   <div class="lp-slider-wrapper">
     <div class="lp-slider-track" id="lp_slider_track">
-      <div class="lp-slider-slide">
-         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469428-0-pexels-photo-3184416.webp" alt="dummy-1" />
-         
-       </div>
-      <div class="lp-slider-slide">    
-         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-       </div>
-      <div class="lp-slider-slide">
-         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-       </div>
-       <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>   <div class="lp-slider-slide">    
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-      </div>
-     <div class="lp-slider-slide">
-        <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469429-0-pexels-photo-356056.jpeg" alt="dummy-1" />
-      </div>
-      <div class="lp-slider-slide">
-
-<img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/64419854-0-VA.jpg" alt="dummy-1" />
-       </div>
-      <div class="lp-slider-slide">
-         <img src="https://storage.googleapis.com/instapage-user-media/d0f0d6f6/65469430-0-Post-Event-2.jpg" alt="dummy-1" />
-       </div>
+        <div class="lp-slider-slide">1</div>
+        <div class="lp-slider-slide">2</div>
+        <div class="lp-slider-slide">3</div>
+        <div class="lp-slider-slide">4</div>
+        <div class="lp-slider-slide">5</div>
     </div>
 
 
